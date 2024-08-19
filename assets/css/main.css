@@ -560,6 +560,8 @@ section,
   height: 100%;
   object-fit: cover;
   z-index: 1;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
 }
 
 .hero:before {
@@ -589,6 +591,9 @@ section,
 .hero p span {
   letter-spacing: 1px;
   border-bottom: 2px solid var(--accent-color);
+  font-family: 'Brush Script MT', cursive;
+  font-size: xx-large;
+  
 }
 
 .hero .social-links {
@@ -617,6 +622,8 @@ section,
     font-size: 20px;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # About Section
@@ -647,6 +654,8 @@ section,
   color: var(--accent-color);
   line-height: 0;
 }
+
+
 
 /*--------------------------------------------------------------
 # Stats Section
